@@ -2,7 +2,7 @@
   "name": "backend_todoapp",
   "version": "1.0.0",
   "description": "",
-  "main": "src/loader.js",
+  "main": "src/main.js",
   "scripts": {
     "dev": "nodemon",
     "production": "pm2 start src/loader.js --name todo-app"
