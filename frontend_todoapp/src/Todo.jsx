@@ -1,9 +1,14 @@
 import React from 'react'
+import Header from './Header'
+import TodoForm from './TodoForm'
+import TodoList from './TodoList'
 
 const Todo = () => {
   return (
     <div>
-      <h1>Todo</h1>
+      <Header name='Todo' small='List'></Header>
+      <TodoForm />
+      <TodoList />
     </div>
   )
 }

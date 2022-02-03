@@ -1,13 +1,13 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'font-awesome/css/font-awesome.min.css'
-import Todo from './Todo'
-import About from './About'
+import Menu from './Menu'
+import Routes from './Routes'
 
 const App = () => (
   <div className='container'>
-    <Todo />
-    <About />
+    <Menu />
+    <Routes />
   </div>
 )
 

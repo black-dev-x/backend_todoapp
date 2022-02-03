@@ -1,8 +1,9 @@
 import React from 'react'
+import Header from './Header'
 
 const About = () => (
   <div>
-    <h1>About</h1>
+    <Header name='About' small='Us' />
   </div>
 )
 
